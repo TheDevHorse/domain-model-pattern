@@ -13,7 +13,8 @@ class AthleteTest {
     void givenValidInputs_whenCreateAthleteIsCalled_thenAthleteIsReturned() {
         // Given
         String expected = "POR001";
-        PersonalData personalData = PersonalData.of("123", "John", 25,null);
+        Contact contact = Contact.of("johndoe@gmail.com", null, null);
+        PersonalData personalData = PersonalData.of("123", "John", 25, contact);
 
         // When
         Athlete actual = Athlete.create(expected, personalData);
