@@ -19,11 +19,6 @@ The **Aggregate Root** is an entity that serves as the entry point for accessing
 
 **Example**: **Athlete** is the **Aggregate Root** in your model because it is the main entity that manages the aggregate of related data, such as **PersonalData** and **Category**. **Athlete** ensures that all associated data is consistent and that business rules are applied correctly.
 
-## DDD and Domain Model
-
-In your model, DDD applies as follows:
-- **Value Object**: **Contact** represents immutable contact data.
-- **Entity**: **PersonalData** has a unique identity and can be changed over time.
-- **Aggregate Root**: **Athlete** is the **Aggregate Root**, as it manages the consistency and integrity of related data, such as **PersonalData** and **Category**.
+## Conclusion:
 
 This domain model structure, using **DDD**, helps create a more flexible, cohesive, and maintainable system, allowing business rules to be implemented clearly and efficiently.
