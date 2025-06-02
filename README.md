@@ -2,7 +2,7 @@
 
 **Domain-Driven Design (DDD)** is a software development approach focused on creating a robust domain model that is aligned with business needs. Within this model, three key concepts are essential to properly represent business logic: **Value Object**, **Entity**, and **Aggregate Root**. These concepts help structure the system cohesively, ensuring it is scalable and easy to maintain.
 
-## Domain Modeling with DDD:
+## Domain Modeling with DDD
 
 ### 1. Value Object:
 A **Value Object** is an object that does not have its own identity and is defined by its attributes. It is immutable, meaning it cannot be changed after it is created. If modification is needed, a new object is created instead.
@@ -19,6 +19,6 @@ The **Aggregate Root** is an entity that serves as the entry point for accessing
 
 **Example**: **Athlete** is the **Aggregate Root** in your model because it is the main entity that manages the aggregate of related data, such as **PersonalData** and **Category**. **Athlete** ensures that all associated data is consistent and that business rules are applied correctly.
 
-## Conclusion:
+## Conclusion
 
 This domain model structure, using **DDD**, helps create a more flexible, cohesive, and maintainable system, allowing business rules to be implemented clearly and efficiently.
